@@ -1,0 +1,95 @@
+views/
+│
+├── layouts/                          # Base layouts
+│   ├── app.blade.php                 # Main layout (user-facing)
+│   ├── auth.blade.php                # Layout for login/register
+│   └── admin.blade.php               # Layout for admin panel
+│
+├── partials/                         # Reusable UI parts
+│   ├── header.blade.php
+│   ├── footer.blade.php
+│   ├── navbar.blade.php
+│   ├── messages.blade.php            # Flash/alert messages
+│   └── sidebar.blade.php             # Admin sidebar
+│
+├── home/                             # Public pages
+│   ├── index.blade.php               # Home page
+│   ├── about.blade.php
+│   └── contact.blade.php
+│
+├── products/                         # Product-related views
+│   ├── index.blade.php               # All products
+│   ├── show.blade.php                # Product detail
+│   ├── category.blade.php            # Category-wise listing
+│   └── search.blade.php              # Search results
+│
+├── cart/                             # Cart & checkout
+│   ├── index.blade.php               # Cart page
+│   ├── checkout.blade.php            # Checkout flow
+│   └── confirm.blade.php             # Final confirmation before payment
+│
+├── payment/                          # Payment flow
+│   ├── select-method.blade.php       # Choose payment method
+│   ├── process.blade.php             # Gateway redirection
+│   ├── success.blade.php             # Payment success
+│   ├── failed.blade.php              # Payment failed
+│   └── canceled.blade.php            # Payment canceled
+│
+├── orders/                           # Order management
+│   ├── index.blade.php               # User order history
+│   └── show.blade.php                # Order details
+│
+├── user/                             # User dashboard/profile
+│   ├── dashboard.blade.php
+│   ├── profile.blade.php
+│   └── edit.blade.php
+│
+├── wishlist/                         # Wishlist (optional)
+│   └── index.blade.php
+│
+├── coupons/                          # Coupon handling
+│   └── apply.blade.php
+│
+├── reviews/                          # Product reviews
+│   ├── index.blade.php
+│   └── create.blade.php
+│
+├── invoices/                         # User invoice views
+│   ├── index.blade.php
+│   └── show.blade.php
+│
+├── wallet/                           # Wallet functionality
+│   ├── index.blade.php
+│   └── topup.blade.php
+│
+├── pages/                            # Static CMS-like pages
+│   ├── privacy-policy.blade.php
+│   ├── terms.blade.php
+│   └── faq.blade.php
+│
+├── notifications/                    # User alerts/notifications
+│   └── index.blade.php
+│
+├── admin/                            # Admin panel
+│   ├── dashboard.blade.php
+│   ├── products/
+│   │   ├── index.blade.php
+│   │   ├── create.blade.php
+│   │   └── edit.blade.php
+│   ├── orders/
+│   │   ├── index.blade.php
+│   │   └── show.blade.php
+│   ├── users/
+│   │   ├── index.blade.php
+│   │   └── edit.blade.php
+│   └── settings.blade.php
+│
+├── auth/                             # Authentication views
+│   ├── login.blade.php
+│   ├── register.blade.php
+│   ├── forgot-password.blade.php
+│   └── reset-password.blade.php
+│
+└── errors/                           # Error pages
+    ├── 404.blade.php
+    └── 500.blade.php
